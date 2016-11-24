@@ -14,7 +14,7 @@ class Excel(object):
         self.current_dir = os.path.abspath(os.path.dirname(self.full_path))
         self.all_sheet_obj = {}
         try:
-            self.book = xlrd.open_workbook(excel_full_path)
+            self.book = xlrd.open_workbook(self.full_path)
 
         except IOError as e:
             print("Excelの読み込みでエラーが発生しました")
@@ -38,7 +38,7 @@ class Excel(object):
 
     def get_specified_row(self, sheet_name, col):
         """
-        指定列のデータを全て取得する
+        指定行のデータを全て取得する
         :param sheet_name: シート名
         :param col: 取得列(アルファベット or 数値)
         :return: 取得文字列のリスト
@@ -55,7 +55,7 @@ class Excel(object):
 
     def get_specified_col(self, sheet_name, row):
         """
-        指定列のデータを全て取得する
+        指定行のデータを全て取得する
         :param sheet_name: シート名
         :param row: 取得列（アルファベット or 数値)
         :return: 取得文字列のリスト
