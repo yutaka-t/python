@@ -13,6 +13,7 @@ class Excel(object):
         self.file_name = os.path.basename(self.full_path)
         self.current_dir = os.path.abspath(os.path.dirname(self.full_path))
         self.all_sheet_obj = {}
+        self.sheet_name_list = []
         try:
             self.book = xlrd.open_workbook(self.full_path)
 
@@ -47,7 +48,14 @@ class Excel(object):
         if type(col) is str:
             col = self.char2num(col.upper())
 
-        so = self.all_sheet_obj[sheet_name]
+        try:
+            so = self.all_sheet_obj[sheet_name]
+        except KeyError as k:
+            print("ERROR : 不明なシート名が選択されました")
+            print(k)
+            print(" -> {0}".format(sheet_name))
+            sys.exit(1)
+
         if so.ncols >= col:
             ret_list = [so.cell(r_index, col).value for r_index in range(so.nrows)]
         return ret_list
@@ -56,11 +64,18 @@ class Excel(object):
         """
         指定行のデータを全て取得する
         :param sheet_name: シート名
-        :param row: 取得列
+        :param row: 取得行
         :return: 取得文字列のリスト
         """
         ret_list = []
-        so = self.all_sheet_obj[sheet_name]
+        try:
+            so = self.all_sheet_obj[sheet_name]
+        except KeyError as k:
+            print("ERROR : 不明なシート名が選択されました")
+            print(k)
+            print(" -> {0}".format(sheet_name))
+            sys.exit(1)
+
         if so.nrows >= row and type(row) is int:
             ret_list = [so.cell(row - 1, c_index).value for c_index in range(so.ncols)]
         return ret_list
@@ -73,6 +88,8 @@ class Excel(object):
         :param row: 指定行
         :return: 指定セルの値
         """
+        if type(col) is str:
+            col = self.char2num(col.upper())
         tmp_o = self.get_sheet_obj_by_sheet_name(sheet_name)
         return tmp_o.cell(row, col).value
 
