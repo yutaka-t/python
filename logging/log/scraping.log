@@ -1,0 +1,84 @@
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:11 debug message
+2018-04-23 09:00:17,194 INFO logging_ren.py:12 info message
+2018-04-23 09:00:17,194 WARNING logging_ren.py:13 warn message
+2018-04-23 09:00:17,194 ERROR logging_ren.py:14 error message
+2018-04-23 09:00:17,194 INFO logging_ren.py:16 UTF-8設定確認
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 0
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 1
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 2
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 3
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 4
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 5
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 6
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 7
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 8
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:18 ループ中 9
+2018-04-23 09:00:17,194 DEBUG logging_ren.py:29 例外テストを行います
+2018-04-23 09:00:17,194 ERROR logging_ren.py:36 {'e_msg': '例外テスト', 'msg': 'loggingテスト中', 'index': 8}
+Traceback (most recent call last):
+  File "E:/Users/yutak/python/PycharmProjects/my_tool/logging_temp/logging_ren.py", line 26, in log_output_test
+    print(dummy_list[100])
+IndexError: list index out of range
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:11 debug message
+2018-04-23 09:56:52,137 INFO logging_ren.py:12 info message
+2018-04-23 09:56:52,137 WARNING logging_ren.py:13 warn message
+2018-04-23 09:56:52,137 ERROR logging_ren.py:14 error message
+2018-04-23 09:56:52,137 INFO logging_ren.py:16 UTF-8設定確認
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 0
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 1
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 2
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 3
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 4
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 5
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 6
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 7
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 8
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:18 ループ中 9
+2018-04-23 09:56:52,137 DEBUG logging_ren.py:29 例外テストを行います
+2018-04-23 09:56:52,137 ERROR logging_ren.py:36 {'index': 8, 'msg': 'loggingテスト中', 'e_msg': '例外テスト'}
+Traceback (most recent call last):
+  File "E:/Users/yutak/python/PycharmProjects/my_tool/logging_temp/logging_ren.py", line 26, in log_output_test
+    print(dummy_list[100])
+IndexError: list index out of range
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:11 debug message
+2018-04-23 09:56:56,714 INFO logging_ren.py:12 info message
+2018-04-23 09:56:56,714 WARNING logging_ren.py:13 warn message
+2018-04-23 09:56:56,714 ERROR logging_ren.py:14 error message
+2018-04-23 09:56:56,714 INFO logging_ren.py:16 UTF-8設定確認
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 0
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 1
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 2
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 3
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 4
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 5
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 6
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 7
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 8
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:18 ループ中 9
+2018-04-23 09:56:56,714 DEBUG logging_ren.py:29 例外テストを行います
+2018-04-23 09:56:56,714 ERROR logging_ren.py:36 {'e_msg': '例外テスト', 'index': 8, 'msg': 'loggingテスト中'}
+Traceback (most recent call last):
+  File "E:/Users/yutak/python/PycharmProjects/my_tool/logging_temp/logging_ren.py", line 26, in log_output_test
+    print(dummy_list[100])
+IndexError: list index out of range
+2018-04-23 10:11:51,690 DEBUG logging_ren.py:11 debug message
+2018-04-23 10:11:51,690 INFO logging_ren.py:12 info message
+2018-04-23 10:11:51,690 WARNING logging_ren.py:13 warn message
+2018-04-23 10:11:51,690 ERROR logging_ren.py:14 error message
+2018-04-23 10:11:51,690 INFO logging_ren.py:16 UTF-8設定確認
+2018-04-23 10:11:51,690 DEBUG logging_ren.py:18 ループ中 0
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 1
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 2
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 3
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 4
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 5
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 6
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 7
+2018-04-23 10:11:51,691 DEBUG logging_ren.py:18 ループ中 8
+2018-04-23 10:11:51,692 DEBUG logging_ren.py:18 ループ中 9
+2018-04-23 10:11:51,692 DEBUG logging_ren.py:29 例外テストを行います
+2018-04-23 10:11:51,692 ERROR logging_ren.py:36 {'msg': 'loggingテスト中', 'index': 8, 'e_msg': '例外テスト'}
+Traceback (most recent call last):
+  File "E:/Users/yutak/python/PycharmProjects/my_tool/logging_temp/logging_ren.py", line 26, in log_output_test
+    print(dummy_list[100])
+IndexError: list index out of range
