@@ -1,0 +1,544 @@
+2018-05-25 08:09:57,457 INFO biyoushi.py:201 アクセス開始
+2018-05-25 08:09:59,502 INFO biyoushi.py:109 関東 情報
+2018-05-25 08:09:59,518 INFO biyoushi.py:112 地域 : 東京23区
+2018-05-25 08:09:59,596 INFO biyoushi.py:119 エリア名  : 渋谷（32）
+2018-05-25 08:09:59,596 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAD/
+2018-05-25 08:09:59,627 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,627 DEBUG biyoushi.py:81 [登録] エリア名 ：渋谷
+2018-05-25 08:09:59,627 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAD/
+2018-05-25 08:09:59,643 INFO biyoushi.py:119 エリア名  : 青山・表参道・原宿（112）
+2018-05-25 08:09:59,643 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJR/
+2018-05-25 08:09:59,674 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,674 DEBUG biyoushi.py:81 [登録] エリア名 ：青山・表参道・原宿
+2018-05-25 08:09:59,674 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJR/
+2018-05-25 08:09:59,690 INFO biyoushi.py:119 エリア名  : 恵比寿・広尾・六本木・麻布・赤坂（39）
+2018-05-25 08:09:59,690 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAC/
+2018-05-25 08:09:59,742 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,742 DEBUG biyoushi.py:81 [登録] エリア名 ：恵比寿・広尾・六本木・麻布・赤坂
+2018-05-25 08:09:59,742 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAC/
+2018-05-25 08:09:59,782 INFO biyoushi.py:119 エリア名  : 代官山・中目黒・自由が丘・武蔵小杉・学大（59）
+2018-05-25 08:09:59,793 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAE/
+2018-05-25 08:09:59,820 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,820 DEBUG biyoushi.py:81 [登録] エリア名 ：代官山・中目黒・自由が丘・武蔵小杉・学大
+2018-05-25 08:09:59,820 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAE/
+2018-05-25 08:09:59,841 INFO biyoushi.py:119 エリア名  : 三軒茶屋・二子玉川・溝の口・青葉台（51）
+2018-05-25 08:09:59,846 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAY/
+2018-05-25 08:09:59,862 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,862 DEBUG biyoushi.py:81 [登録] エリア名 ：三軒茶屋・二子玉川・溝の口・青葉台
+2018-05-25 08:09:59,862 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAY/
+2018-05-25 08:09:59,877 INFO biyoushi.py:119 エリア名  : 品川・目黒・五反田・田町（43）
+2018-05-25 08:09:59,893 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAH/
+2018-05-25 08:09:59,909 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,909 DEBUG biyoushi.py:81 [登録] エリア名 ：品川・目黒・五反田・田町
+2018-05-25 08:09:59,909 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAH/
+2018-05-25 08:09:59,924 INFO biyoushi.py:119 エリア名  : 新宿・高田馬場・代々木（78）
+2018-05-25 08:09:59,940 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAA/
+2018-05-25 08:09:59,955 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:09:59,955 DEBUG biyoushi.py:81 [登録] エリア名 ：新宿・高田馬場・代々木
+2018-05-25 08:09:59,955 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAA/
+2018-05-25 08:09:59,991 INFO biyoushi.py:119 エリア名  : 中野・高円寺・阿佐ヶ谷（33）
+2018-05-25 08:09:59,997 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAI/
+2018-05-25 08:10:00,024 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,024 DEBUG biyoushi.py:81 [登録] エリア名 ：中野・高円寺・阿佐ヶ谷
+2018-05-25 08:10:00,024 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAI/
+2018-05-25 08:10:00,042 INFO biyoushi.py:119 エリア名  : 下北沢・成城学園・向ヶ丘遊園・新百合ヶ丘（35）
+2018-05-25 08:10:00,042 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAX/
+2018-05-25 08:10:00,073 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,073 DEBUG biyoushi.py:81 [登録] エリア名 ：下北沢・成城学園・向ヶ丘遊園・新百合ヶ丘
+2018-05-25 08:10:00,073 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAX/
+2018-05-25 08:10:00,089 INFO biyoushi.py:119 エリア名  : 池袋・目白（74）
+2018-05-25 08:10:00,089 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAB/
+2018-05-25 08:10:00,126 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,126 DEBUG biyoushi.py:81 [登録] エリア名 ：池袋・目白
+2018-05-25 08:10:00,126 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAB/
+2018-05-25 08:10:00,146 INFO biyoushi.py:119 エリア名  : 銀座・有楽町・新橋・丸の内・日本橋（71）
+2018-05-25 08:10:00,146 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAF/
+2018-05-25 08:10:00,179 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,179 DEBUG biyoushi.py:81 [登録] エリア名 ：銀座・有楽町・新橋・丸の内・日本橋
+2018-05-25 08:10:00,179 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAF/
+2018-05-25 08:10:00,192 INFO biyoushi.py:119 エリア名  : 上野・神田・北千住・亀有・青砥・町屋（49）
+2018-05-25 08:10:00,192 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAZ/
+2018-05-25 08:10:00,223 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,223 DEBUG biyoushi.py:81 [登録] エリア名 ：上野・神田・北千住・亀有・青砥・町屋
+2018-05-25 08:10:00,223 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAZ/
+2018-05-25 08:10:00,239 INFO biyoushi.py:119 エリア名  : 吉祥寺・荻窪・三鷹・国分寺・久我山（67）
+2018-05-25 08:10:00,255 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAJ/
+2018-05-25 08:10:00,270 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,270 DEBUG biyoushi.py:81 [登録] エリア名 ：吉祥寺・荻窪・三鷹・国分寺・久我山
+2018-05-25 08:10:00,270 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAJ/
+2018-05-25 08:10:00,301 INFO biyoushi.py:119 エリア名  : 両国・錦糸町・小岩・森下・瑞江（35）
+2018-05-25 08:10:00,301 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJC/
+2018-05-25 08:10:00,333 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,333 DEBUG biyoushi.py:81 [登録] エリア名 ：両国・錦糸町・小岩・森下・瑞江
+2018-05-25 08:10:00,333 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJC/
+2018-05-25 08:10:00,348 INFO biyoushi.py:119 エリア名  : 門前仲町・勝どき・月島・豊洲（14）
+2018-05-25 08:10:00,348 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJQ/
+2018-05-25 08:10:00,380 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,380 DEBUG biyoushi.py:81 [登録] エリア名 ：門前仲町・勝どき・月島・豊洲
+2018-05-25 08:10:00,380 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJQ/
+2018-05-25 08:10:00,395 INFO biyoushi.py:119 エリア名  : 御茶ノ水・四ツ谷・千駄木・茗荷谷（7）
+2018-05-25 08:10:00,411 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJA/
+2018-05-25 08:10:00,426 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,426 DEBUG biyoushi.py:81 [登録] エリア名 ：御茶ノ水・四ツ谷・千駄木・茗荷谷
+2018-05-25 08:10:00,426 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJA/
+2018-05-25 08:10:00,458 INFO biyoushi.py:119 エリア名  : 明大前・千歳烏山・調布・府中（21）
+2018-05-25 08:10:00,458 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAW/
+2018-05-25 08:10:00,489 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,489 DEBUG biyoushi.py:81 [登録] エリア名 ：明大前・千歳烏山・調布・府中
+2018-05-25 08:10:00,489 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAW/
+2018-05-25 08:10:00,505 INFO biyoushi.py:119 エリア名  : 赤羽・板橋・王子・巣鴨（31）
+2018-05-25 08:10:00,505 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJB/
+2018-05-25 08:10:00,536 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,536 DEBUG biyoushi.py:81 [登録] エリア名 ：赤羽・板橋・王子・巣鴨
+2018-05-25 08:10:00,536 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJB/
+2018-05-25 08:10:00,551 INFO biyoushi.py:119 エリア名  : 鷺ノ宮・田無・東村山・拝島（13）
+2018-05-25 08:10:00,567 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAV/
+2018-05-25 08:10:00,583 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,583 DEBUG biyoushi.py:81 [登録] エリア名 ：鷺ノ宮・田無・東村山・拝島
+2018-05-25 08:10:00,583 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAV/
+2018-05-25 08:10:00,618 INFO biyoushi.py:119 エリア名  : 大井町・大森・蒲田・川崎・鶴見（57）
+2018-05-25 08:10:00,623 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAQ/
+2018-05-25 08:10:00,640 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,640 DEBUG biyoushi.py:81 [登録] エリア名 ：大井町・大森・蒲田・川崎・鶴見
+2018-05-25 08:10:00,640 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAQ/
+2018-05-25 08:10:00,655 INFO biyoushi.py:119 エリア名  : 大山・成増・志木・川越・東松山（59）
+2018-05-25 08:10:00,671 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAU/
+2018-05-25 08:10:00,687 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,687 DEBUG biyoushi.py:81 [登録] エリア名 ：大山・成増・志木・川越・東松山
+2018-05-25 08:10:00,687 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAU/
+2018-05-25 08:10:00,718 INFO biyoushi.py:119 エリア名  : 練馬・ひばりヶ丘・所沢・飯能・狭山（56）
+2018-05-25 08:10:00,718 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAS/
+2018-05-25 08:10:00,749 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:00,749 DEBUG biyoushi.py:81 [登録] エリア名 ：練馬・ひばりヶ丘・所沢・飯能・狭山
+2018-05-25 08:10:00,749 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAS/
+2018-05-25 08:10:02,037 INFO biyoushi.py:112 地域 : 東京西部・山梨
+2018-05-25 08:10:02,208 INFO biyoushi.py:119 エリア名  : 中野・高円寺・阿佐ヶ谷（33）
+2018-05-25 08:10:02,223 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAI/
+2018-05-25 08:10:02,239 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,239 DEBUG biyoushi.py:81 [登録] エリア名 ：中野・高円寺・阿佐ヶ谷
+2018-05-25 08:10:02,239 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAI/
+2018-05-25 08:10:02,254 INFO biyoushi.py:119 エリア名  : 下北沢・成城学園・向ヶ丘遊園・新百合ヶ丘（35）
+2018-05-25 08:10:02,272 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAX/
+2018-05-25 08:10:02,296 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,296 DEBUG biyoushi.py:81 [登録] エリア名 ：下北沢・成城学園・向ヶ丘遊園・新百合ヶ丘
+2018-05-25 08:10:02,296 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAX/
+2018-05-25 08:10:02,303 INFO biyoushi.py:119 エリア名  : 吉祥寺・荻窪・三鷹・国分寺・久我山（67）
+2018-05-25 08:10:02,303 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAJ/
+2018-05-25 08:10:02,334 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,334 DEBUG biyoushi.py:81 [登録] エリア名 ：吉祥寺・荻窪・三鷹・国分寺・久我山
+2018-05-25 08:10:02,334 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAJ/
+2018-05-25 08:10:02,350 INFO biyoushi.py:119 エリア名  : 八王子・立川・国立・多摩・日野・福生・秋川（64）
+2018-05-25 08:10:02,350 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAK/
+2018-05-25 08:10:02,381 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,381 DEBUG biyoushi.py:81 [登録] エリア名 ：八王子・立川・国立・多摩・日野・福生・秋川
+2018-05-25 08:10:02,381 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAK/
+2018-05-25 08:10:02,381 INFO biyoushi.py:119 エリア名  : 明大前・千歳烏山・調布・府中（21）
+2018-05-25 08:10:02,397 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAW/
+2018-05-25 08:10:02,412 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,412 DEBUG biyoushi.py:81 [登録] エリア名 ：明大前・千歳烏山・調布・府中
+2018-05-25 08:10:02,412 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAW/
+2018-05-25 08:10:02,446 INFO biyoushi.py:119 エリア名  : 鷺ノ宮・田無・東村山・拝島（13）
+2018-05-25 08:10:02,453 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAV/
+2018-05-25 08:10:02,479 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,479 DEBUG biyoushi.py:81 [登録] エリア名 ：鷺ノ宮・田無・東村山・拝島
+2018-05-25 08:10:02,479 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAV/
+2018-05-25 08:10:02,494 INFO biyoushi.py:119 エリア名  : 町田・相模原・厚木・大和・秦野（93）
+2018-05-25 08:10:02,510 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAT/
+2018-05-25 08:10:02,526 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,526 DEBUG biyoushi.py:81 [登録] エリア名 ：町田・相模原・厚木・大和・秦野
+2018-05-25 08:10:02,526 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAT/
+2018-05-25 08:10:02,541 INFO biyoushi.py:119 エリア名  : 練馬・ひばりヶ丘・所沢・飯能・狭山（56）
+2018-05-25 08:10:02,557 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAS/
+2018-05-25 08:10:02,573 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,573 DEBUG biyoushi.py:81 [登録] エリア名 ：練馬・ひばりヶ丘・所沢・飯能・狭山
+2018-05-25 08:10:02,573 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAS/
+2018-05-25 08:10:02,588 INFO biyoushi.py:119 エリア名  : 山梨（1）
+2018-05-25 08:10:02,588 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJO/
+2018-05-25 08:10:02,619 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:02,619 DEBUG biyoushi.py:81 [登録] エリア名 ：山梨
+2018-05-25 08:10:02,619 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJO/
+2018-05-25 08:10:03,363 INFO biyoushi.py:112 地域 : 千葉
+2018-05-25 08:10:03,619 INFO biyoushi.py:119 エリア名  : 流山・三郷・野田（13）
+2018-05-25 08:10:03,619 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJL/
+2018-05-25 08:10:03,634 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:03,634 DEBUG biyoushi.py:81 [登録] エリア名 ：流山・三郷・野田
+2018-05-25 08:10:03,634 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJL/
+2018-05-25 08:10:03,650 INFO biyoushi.py:119 エリア名  : 千葉・稲毛・幕張・鎌取・都賀（60）
+2018-05-25 08:10:03,650 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAM/
+2018-05-25 08:10:03,681 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:03,681 DEBUG biyoushi.py:81 [登録] エリア名 ：千葉・稲毛・幕張・鎌取・都賀
+2018-05-25 08:10:03,681 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAM/
+2018-05-25 08:10:03,697 INFO biyoushi.py:119 エリア名  : 船橋・津田沼・本八幡・浦安・市川（100）
+2018-05-25 08:10:03,697 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAN/
+2018-05-25 08:10:03,728 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:03,728 DEBUG biyoushi.py:81 [登録] エリア名 ：船橋・津田沼・本八幡・浦安・市川
+2018-05-25 08:10:03,728 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAN/
+2018-05-25 08:10:03,744 INFO biyoushi.py:119 エリア名  : 柏・松戸・我孫子（46）
+2018-05-25 08:10:03,744 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAO/
+2018-05-25 08:10:03,775 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:03,775 DEBUG biyoushi.py:81 [登録] エリア名 ：柏・松戸・我孫子
+2018-05-25 08:10:03,775 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAO/
+2018-05-25 08:10:03,791 INFO biyoushi.py:119 エリア名  : 市原・木更津・茂原・勝浦・東金・銚子（19）
+2018-05-25 08:10:03,791 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJG/
+2018-05-25 08:10:03,806 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:03,822 DEBUG biyoushi.py:81 [登録] エリア名 ：市原・木更津・茂原・勝浦・東金・銚子
+2018-05-25 08:10:03,822 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJG/
+2018-05-25 08:10:03,822 INFO biyoushi.py:119 エリア名  : 八千代・佐倉・鎌ヶ谷・成田（32）
+2018-05-25 08:10:03,838 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJH/
+2018-05-25 08:10:03,853 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:03,853 DEBUG biyoushi.py:81 [登録] エリア名 ：八千代・佐倉・鎌ヶ谷・成田
+2018-05-25 08:10:03,853 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJH/
+2018-05-25 08:10:04,402 INFO biyoushi.py:112 地域 : 埼玉・栃木・茨城・群馬
+2018-05-25 08:10:04,668 INFO biyoushi.py:119 エリア名  : 大宮・浦和・川口・岩槻（91）
+2018-05-25 08:10:04,668 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAL/
+2018-05-25 08:10:04,699 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,699 DEBUG biyoushi.py:81 [登録] エリア名 ：大宮・浦和・川口・岩槻
+2018-05-25 08:10:04,699 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAL/
+2018-05-25 08:10:04,714 INFO biyoushi.py:119 エリア名  : 大山・成増・志木・川越・東松山（59）
+2018-05-25 08:10:04,714 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAU/
+2018-05-25 08:10:04,746 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,746 DEBUG biyoushi.py:81 [登録] エリア名 ：大山・成増・志木・川越・東松山
+2018-05-25 08:10:04,746 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAU/
+2018-05-25 08:10:04,761 INFO biyoushi.py:119 エリア名  : 練馬・ひばりヶ丘・所沢・飯能・狭山（56）
+2018-05-25 08:10:04,761 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAS/
+2018-05-25 08:10:04,793 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,793 DEBUG biyoushi.py:81 [登録] エリア名 ：練馬・ひばりヶ丘・所沢・飯能・狭山
+2018-05-25 08:10:04,793 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAS/
+2018-05-25 08:10:04,793 INFO biyoushi.py:119 エリア名  : 草加・越谷・春日部・久喜・羽生（41）
+2018-05-25 08:10:04,808 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJD/
+2018-05-25 08:10:04,824 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,824 DEBUG biyoushi.py:81 [登録] エリア名 ：草加・越谷・春日部・久喜・羽生
+2018-05-25 08:10:04,824 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJD/
+2018-05-25 08:10:04,839 INFO biyoushi.py:119 エリア名  : 上尾・熊谷・本庄（19）
+2018-05-25 08:10:04,855 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJF/
+2018-05-25 08:10:04,871 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,871 DEBUG biyoushi.py:81 [登録] エリア名 ：上尾・熊谷・本庄
+2018-05-25 08:10:04,871 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJF/
+2018-05-25 08:10:04,886 INFO biyoushi.py:119 エリア名  : 東大宮・古河・小山（13）
+2018-05-25 08:10:04,902 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJS/
+2018-05-25 08:10:04,935 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,935 DEBUG biyoushi.py:81 [登録] エリア名 ：東大宮・古河・小山
+2018-05-25 08:10:04,935 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJS/
+2018-05-25 08:10:04,952 INFO biyoushi.py:119 エリア名  : 流山・三郷・野田（13）
+2018-05-25 08:10:04,956 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJL/
+2018-05-25 08:10:04,982 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:04,982 DEBUG biyoushi.py:81 [登録] エリア名 ：流山・三郷・野田
+2018-05-25 08:10:04,982 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJL/
+2018-05-25 08:10:04,999 INFO biyoushi.py:119 エリア名  : 宇都宮・栃木（41）
+2018-05-25 08:10:05,004 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJE/
+2018-05-25 08:10:05,028 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:05,028 DEBUG biyoushi.py:81 [登録] エリア名 ：宇都宮・栃木
+2018-05-25 08:10:05,028 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJE/
+2018-05-25 08:10:05,042 INFO biyoushi.py:119 エリア名  : 取手・土浦・つくば・鹿島（32）
+2018-05-25 08:10:05,047 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJI/
+2018-05-25 08:10:05,076 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:05,076 DEBUG biyoushi.py:81 [登録] エリア名 ：取手・土浦・つくば・鹿島
+2018-05-25 08:10:05,076 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJI/
+2018-05-25 08:10:05,091 INFO biyoushi.py:119 エリア名  : 前橋・高崎・伊勢崎・太田・群馬（56）
+2018-05-25 08:10:05,097 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJN/
+2018-05-25 08:10:05,125 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:05,125 DEBUG biyoushi.py:81 [登録] エリア名 ：前橋・高崎・伊勢崎・太田・群馬
+2018-05-25 08:10:05,125 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJN/
+2018-05-25 08:10:05,141 INFO biyoushi.py:119 エリア名  : 水戸・ひたちなか・日立・茨城（16）
+2018-05-25 08:10:05,147 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJP/
+2018-05-25 08:10:05,178 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:05,178 DEBUG biyoushi.py:81 [登録] エリア名 ：水戸・ひたちなか・日立・茨城
+2018-05-25 08:10:05,178 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJP/
+2018-05-25 08:10:05,680 INFO biyoushi.py:112 地域 : 神奈川
+2018-05-25 08:10:06,025 INFO biyoushi.py:119 エリア名  : 代官山・中目黒・自由が丘・武蔵小杉・学大（59）
+2018-05-25 08:10:06,029 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAE/
+2018-05-25 08:10:06,053 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,053 DEBUG biyoushi.py:81 [登録] エリア名 ：代官山・中目黒・自由が丘・武蔵小杉・学大
+2018-05-25 08:10:06,053 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAE/
+2018-05-25 08:10:06,067 INFO biyoushi.py:119 エリア名  : 三軒茶屋・二子玉川・溝の口・青葉台（51）
+2018-05-25 08:10:06,071 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAY/
+2018-05-25 08:10:06,097 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,097 DEBUG biyoushi.py:81 [登録] エリア名 ：三軒茶屋・二子玉川・溝の口・青葉台
+2018-05-25 08:10:06,097 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAY/
+2018-05-25 08:10:06,112 INFO biyoushi.py:119 エリア名  : 下北沢・成城学園・向ヶ丘遊園・新百合ヶ丘（35）
+2018-05-25 08:10:06,118 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAX/
+2018-05-25 08:10:06,144 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,144 DEBUG biyoushi.py:81 [登録] エリア名 ：下北沢・成城学園・向ヶ丘遊園・新百合ヶ丘
+2018-05-25 08:10:06,144 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAX/
+2018-05-25 08:10:06,158 INFO biyoushi.py:119 エリア名  : 町田・相模原・厚木・大和・秦野（93）
+2018-05-25 08:10:06,163 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAT/
+2018-05-25 08:10:06,191 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,191 DEBUG biyoushi.py:81 [登録] エリア名 ：町田・相模原・厚木・大和・秦野
+2018-05-25 08:10:06,191 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAT/
+2018-05-25 08:10:06,205 INFO biyoushi.py:119 エリア名  : 横浜・関内・元町・上大岡・白楽（79）
+2018-05-25 08:10:06,209 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAP/
+2018-05-25 08:10:06,237 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,237 DEBUG biyoushi.py:81 [登録] エリア名 ：横浜・関内・元町・上大岡・白楽
+2018-05-25 08:10:06,237 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAP/
+2018-05-25 08:10:06,253 INFO biyoushi.py:119 エリア名  : 大井町・大森・蒲田・川崎・鶴見（57）
+2018-05-25 08:10:06,257 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAQ/
+2018-05-25 08:10:06,287 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,287 DEBUG biyoushi.py:81 [登録] エリア名 ：大井町・大森・蒲田・川崎・鶴見
+2018-05-25 08:10:06,287 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAQ/
+2018-05-25 08:10:06,301 INFO biyoushi.py:119 エリア名  : 横須賀・小田原（20）
+2018-05-25 08:10:06,305 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macAR/
+2018-05-25 08:10:06,334 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,334 DEBUG biyoushi.py:81 [登録] エリア名 ：横須賀・小田原
+2018-05-25 08:10:06,334 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macAR/
+2018-05-25 08:10:06,349 INFO biyoushi.py:119 エリア名  : センター南・二俣川・戸塚・杉田・金沢文庫（48）
+2018-05-25 08:10:06,354 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJM/
+2018-05-25 08:10:06,379 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,379 DEBUG biyoushi.py:81 [登録] エリア名 ：センター南・二俣川・戸塚・杉田・金沢文庫
+2018-05-25 08:10:06,379 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJM/
+2018-05-25 08:10:06,393 INFO biyoushi.py:119 エリア名  : 湘南・鎌倉・逗子（52）
+2018-05-25 08:10:06,398 INFO biyoushi.py:120 エリアURL : https://beauty.hotpepper.jp/work/svcSA/macJJ/
+2018-05-25 08:10:06,423 DEBUG biyoushi.py:80 [登録] 地域     ：関東
+2018-05-25 08:10:06,423 DEBUG biyoushi.py:81 [登録] エリア名 ：湘南・鎌倉・逗子
+2018-05-25 08:10:06,423 DEBUG biyoushi.py:82 [登録] エリアURL：https://beauty.hotpepper.jp/work/svcSA/macJJ/
+2018-06-10 08:17:48,885 DEBUG c_work_sc.py:78 アクセス開始
+2018-06-10 08:18:33,801 DEBUG c_work_sc.py:76 アクセス開始
+2018-06-10 08:18:41,205 DEBUG c_work_sc.py:83 処理終了
+2018-06-10 08:22:09,200 DEBUG c_work_sc.py:77 アクセス開始
+2018-06-10 08:23:05,898 DEBUG c_work_sc.py:76 アクセス開始
+2018-06-10 08:23:13,207 DEBUG c_work_sc.py:83 処理終了
+2018-06-10 08:25:32,416 DEBUG c_work_sc.py:76 アクセス開始
+2018-06-10 08:25:40,652 DEBUG c_work_sc.py:83 処理終了
+2018-06-10 08:30:23,304 DEBUG c_work_sc.py:76 アクセス開始
+2018-06-10 08:32:49,466 DEBUG c_work_sc.py:76 アクセス開始
+2018-06-10 08:32:57,638 DEBUG c_work_sc.py:83 処理終了
+2018-06-10 08:39:59,900 DEBUG c_work_sc.py:84 アクセス開始
+2018-06-10 08:40:30,617 DEBUG c_work_sc.py:84 アクセス開始
+2018-06-10 08:40:38,678 DEBUG c_work_sc.py:91 処理終了
+2018-06-10 08:43:48,885 DEBUG c_work_sc.py:83 アクセス開始
+2018-06-10 08:44:45,876 DEBUG c_work_sc.py:83 アクセス開始
+2018-06-10 08:44:54,037 DEBUG c_work_sc.py:90 処理終了
+2018-06-10 10:51:12,470 DEBUG c_work_sc.py:105 アクセス開始
+2018-06-10 11:47:47,865 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:49:03,266 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:49:46,334 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:49:46,335 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development?ref=mypage_nav1
+2018-06-10 11:49:52,594 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2&ref=mypage_nav1
+2018-06-10 11:49:57,022 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3&ref=mypage_nav1
+2018-06-10 11:50:01,346 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=4&ref=mypage_nav1
+2018-06-10 11:50:05,255 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=5&ref=mypage_nav1
+2018-06-10 11:50:08,911 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=6&ref=mypage_nav1
+2018-06-10 11:50:12,939 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=7&ref=mypage_nav1
+2018-06-10 11:50:16,654 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=8&ref=mypage_nav1
+2018-06-10 11:50:57,983 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:50:57,984 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development?ref=mypage_nav1
+2018-06-10 11:51:04,274 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2&ref=mypage_nav1
+2018-06-10 11:51:08,526 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3&ref=mypage_nav1
+2018-06-10 11:51:12,446 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=4&ref=mypage_nav1
+2018-06-10 11:51:15,871 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=5&ref=mypage_nav1
+2018-06-10 11:51:19,470 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=6&ref=mypage_nav1
+2018-06-10 11:52:21,296 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:52:21,296 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development?ref=mypage_nav1
+2018-06-10 11:52:27,151 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2&ref=mypage_nav1
+2018-06-10 11:52:32,198 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3&ref=mypage_nav1
+2018-06-10 11:52:36,814 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=4&ref=mypage_nav1
+2018-06-10 11:52:42,230 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=5&ref=mypage_nav1
+2018-06-10 11:52:45,864 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=6&ref=mypage_nav1
+2018-06-10 11:52:49,248 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=7&ref=mypage_nav1
+2018-06-10 11:52:53,140 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=8&ref=mypage_nav1
+2018-06-10 11:52:56,416 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=9&ref=mypage_nav1
+2018-06-10 11:52:59,905 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=10&ref=mypage_nav1
+2018-06-10 11:53:03,866 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=11&ref=mypage_nav1
+2018-06-10 11:53:07,975 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=12&ref=mypage_nav1
+2018-06-10 11:53:11,411 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=13&ref=mypage_nav1
+2018-06-10 11:53:14,962 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=14&ref=mypage_nav1
+2018-06-10 11:53:18,820 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=15&ref=mypage_nav1
+2018-06-10 11:53:22,652 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=16&ref=mypage_nav1
+2018-06-10 11:53:26,247 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=17&ref=mypage_nav1
+2018-06-10 11:53:30,314 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=18&ref=mypage_nav1
+2018-06-10 11:53:34,108 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=19&ref=mypage_nav1
+2018-06-10 11:53:38,168 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=20&ref=mypage_nav1
+2018-06-10 11:53:44,627 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=21&ref=mypage_nav1
+2018-06-10 11:53:48,611 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=22&ref=mypage_nav1
+2018-06-10 11:53:52,723 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=23&ref=mypage_nav1
+2018-06-10 11:53:56,423 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=24&ref=mypage_nav1
+2018-06-10 11:54:00,467 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=25&ref=mypage_nav1
+2018-06-10 11:54:05,004 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=26&ref=mypage_nav1
+2018-06-10 11:54:09,113 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=27&ref=mypage_nav1
+2018-06-10 11:54:13,014 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=28&ref=mypage_nav1
+2018-06-10 11:54:16,854 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=29&ref=mypage_nav1
+2018-06-10 11:54:21,212 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=30&ref=mypage_nav1
+2018-06-10 11:54:25,349 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=31&ref=mypage_nav1
+2018-06-10 11:54:29,177 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=32&ref=mypage_nav1
+2018-06-10 11:54:32,910 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=33&ref=mypage_nav1
+2018-06-10 11:54:37,456 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=34&ref=mypage_nav1
+2018-06-10 11:54:41,925 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=35&ref=mypage_nav1
+2018-06-10 11:54:46,946 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=36&ref=mypage_nav1
+2018-06-10 11:54:51,236 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=37&ref=mypage_nav1
+2018-06-10 11:54:55,243 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=38&ref=mypage_nav1
+2018-06-10 11:54:59,824 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=39&ref=mypage_nav1
+2018-06-10 11:55:03,553 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=40&ref=mypage_nav1
+2018-06-10 11:55:08,002 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=41&ref=mypage_nav1
+2018-06-10 11:55:12,233 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=42&ref=mypage_nav1
+2018-06-10 11:55:17,099 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=43&ref=mypage_nav1
+2018-06-10 11:55:22,093 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=44&ref=mypage_nav1
+2018-06-10 11:55:26,681 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=45&ref=mypage_nav1
+2018-06-10 11:55:32,338 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=46&ref=mypage_nav1
+2018-06-10 11:55:36,825 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=47&ref=mypage_nav1
+2018-06-10 11:55:40,830 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=48&ref=mypage_nav1
+2018-06-10 11:55:45,165 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=49&ref=mypage_nav1
+2018-06-10 11:57:09,069 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:57:09,077 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development?ref=mypage_nav1
+2018-06-10 11:57:16,399 DEBUG Image.py:405 Importing BmpImagePlugin
+2018-06-10 11:57:16,524 DEBUG Image.py:405 Importing BufrStubImagePlugin
+2018-06-10 11:57:16,537 DEBUG Image.py:405 Importing CurImagePlugin
+2018-06-10 11:57:16,539 DEBUG Image.py:405 Importing DcxImagePlugin
+2018-06-10 11:57:16,549 DEBUG Image.py:405 Importing DdsImagePlugin
+2018-06-10 11:57:16,566 DEBUG Image.py:405 Importing EpsImagePlugin
+2018-06-10 11:57:16,611 DEBUG Image.py:405 Importing FitsStubImagePlugin
+2018-06-10 11:57:16,623 DEBUG Image.py:405 Importing FliImagePlugin
+2018-06-10 11:57:16,638 DEBUG Image.py:405 Importing FpxImagePlugin
+2018-06-10 11:57:16,641 DEBUG Image.py:408 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2018-06-10 11:57:16,641 DEBUG Image.py:405 Importing FtexImagePlugin
+2018-06-10 11:57:16,659 DEBUG Image.py:405 Importing GbrImagePlugin
+2018-06-10 11:57:16,667 DEBUG Image.py:405 Importing GifImagePlugin
+2018-06-10 11:57:16,701 DEBUG Image.py:405 Importing GribStubImagePlugin
+2018-06-10 11:57:16,717 DEBUG Image.py:405 Importing Hdf5StubImagePlugin
+2018-06-10 11:57:16,730 DEBUG Image.py:405 Importing IcnsImagePlugin
+2018-06-10 11:57:16,752 DEBUG Image.py:405 Importing IcoImagePlugin
+2018-06-10 11:57:16,752 DEBUG Image.py:405 Importing ImImagePlugin
+2018-06-10 11:57:16,763 DEBUG Image.py:405 Importing ImtImagePlugin
+2018-06-10 11:57:16,764 DEBUG Image.py:405 Importing IptcImagePlugin
+2018-06-10 11:57:16,765 DEBUG Image.py:405 Importing JpegImagePlugin
+2018-06-10 11:57:16,827 DEBUG Image.py:405 Importing Jpeg2KImagePlugin
+2018-06-10 11:57:16,827 DEBUG Image.py:405 Importing McIdasImagePlugin
+2018-06-10 11:57:16,844 DEBUG Image.py:405 Importing MicImagePlugin
+2018-06-10 11:57:16,854 DEBUG Image.py:408 Image: failed to import MicImagePlugin: No module named 'olefile'
+2018-06-10 11:57:16,854 DEBUG Image.py:405 Importing MpegImagePlugin
+2018-06-10 11:57:16,884 DEBUG Image.py:405 Importing MpoImagePlugin
+2018-06-10 11:57:16,893 DEBUG Image.py:405 Importing MspImagePlugin
+2018-06-10 11:57:16,898 DEBUG Image.py:405 Importing PalmImagePlugin
+2018-06-10 11:57:16,919 DEBUG Image.py:405 Importing PcdImagePlugin
+2018-06-10 11:57:16,937 DEBUG Image.py:405 Importing PcxImagePlugin
+2018-06-10 11:57:16,937 DEBUG Image.py:405 Importing PdfImagePlugin
+2018-06-10 11:57:16,954 DEBUG Image.py:405 Importing PixarImagePlugin
+2018-06-10 11:57:16,976 DEBUG Image.py:405 Importing PngImagePlugin
+2018-06-10 11:57:16,976 DEBUG Image.py:405 Importing PpmImagePlugin
+2018-06-10 11:57:16,993 DEBUG Image.py:405 Importing PsdImagePlugin
+2018-06-10 11:57:17,009 DEBUG Image.py:405 Importing SgiImagePlugin
+2018-06-10 11:57:17,015 DEBUG Image.py:405 Importing SpiderImagePlugin
+2018-06-10 11:57:17,016 DEBUG Image.py:405 Importing SunImagePlugin
+2018-06-10 11:57:17,033 DEBUG Image.py:405 Importing TgaImagePlugin
+2018-06-10 11:57:17,044 DEBUG Image.py:405 Importing TiffImagePlugin
+2018-06-10 11:57:17,045 DEBUG Image.py:405 Importing WebPImagePlugin
+2018-06-10 11:57:17,105 DEBUG Image.py:405 Importing WmfImagePlugin
+2018-06-10 11:57:17,119 DEBUG Image.py:405 Importing XbmImagePlugin
+2018-06-10 11:57:17,128 DEBUG Image.py:405 Importing XpmImagePlugin
+2018-06-10 11:57:17,129 DEBUG Image.py:405 Importing XVThumbImagePlugin
+2018-06-10 11:59:34,512 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 11:59:34,512 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development
+2018-06-10 11:59:40,532 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2
+2018-06-10 11:59:44,437 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3
+2018-06-10 11:59:48,965 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=4
+2018-06-10 11:59:53,985 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=5
+2018-06-10 11:59:57,415 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=6
+2018-06-10 12:00:00,626 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=7
+2018-06-10 12:00:04,341 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=8
+2018-06-10 12:00:08,671 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=9
+2018-06-10 12:00:12,696 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=10
+2018-06-10 12:00:16,855 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=11
+2018-06-10 12:00:25,429 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 12:00:25,429 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development
+2018-06-10 12:00:31,680 DEBUG Image.py:405 Importing BmpImagePlugin
+2018-06-10 12:00:31,696 DEBUG Image.py:405 Importing BufrStubImagePlugin
+2018-06-10 12:00:31,696 DEBUG Image.py:405 Importing CurImagePlugin
+2018-06-10 12:00:31,696 DEBUG Image.py:405 Importing DcxImagePlugin
+2018-06-10 12:00:31,696 DEBUG Image.py:405 Importing DdsImagePlugin
+2018-06-10 12:00:31,696 DEBUG Image.py:405 Importing EpsImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing FitsStubImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing FliImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing FpxImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:408 Image: failed to import FpxImagePlugin: No module named 'olefile'
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing FtexImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing GbrImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing GifImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing GribStubImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing Hdf5StubImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing IcnsImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing IcoImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing ImImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing ImtImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing IptcImagePlugin
+2018-06-10 12:00:31,743 DEBUG Image.py:405 Importing JpegImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing Jpeg2KImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing McIdasImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing MicImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:408 Image: failed to import MicImagePlugin: No module named 'olefile'
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing MpegImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing MpoImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing MspImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PalmImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PcdImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PcxImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PdfImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PixarImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PngImagePlugin
+2018-06-10 12:00:31,759 DEBUG Image.py:405 Importing PpmImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing PsdImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing SgiImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing SpiderImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing SunImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing TgaImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing TiffImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing WebPImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing WmfImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing XbmImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing XpmImagePlugin
+2018-06-10 12:00:31,774 DEBUG Image.py:405 Importing XVThumbImagePlugin
+2018-06-10 12:01:14,845 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2
+2018-06-10 12:02:14,273 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3
+2018-06-10 12:05:29,379 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 12:05:29,379 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development
+2018-06-10 12:05:35,460 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2
+2018-06-10 12:05:39,561 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3
+2018-06-10 12:05:43,392 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=4
+2018-06-10 12:05:46,730 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=5
+2018-06-10 12:05:51,032 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=6
+2018-06-10 12:05:54,629 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=7
+2018-06-10 12:05:58,090 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=8
+2018-06-10 12:06:01,429 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=9
+2018-06-10 12:06:05,108 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=10
+2018-06-10 12:06:08,307 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=11
+2018-06-10 12:06:11,539 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=12
+2018-06-10 12:06:15,117 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=13
+2018-06-10 12:06:18,851 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=14
+2018-06-10 12:06:22,209 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=15
+2018-06-10 12:06:26,961 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=16
+2018-06-10 12:06:30,573 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=17
+2018-06-10 12:06:34,140 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=18
+2018-06-10 12:06:38,202 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=19
+2018-06-10 12:06:42,028 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=20
+2018-06-10 12:06:46,049 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=21
+2018-06-10 12:06:50,962 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=22
+2018-06-10 12:06:54,347 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=23
+2018-06-10 12:06:58,165 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=24
+2018-06-10 12:07:01,815 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=25
+2018-06-10 12:07:05,882 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=26
+2018-06-10 12:07:09,487 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=27
+2018-06-10 12:07:13,098 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=28
+2018-06-10 12:07:17,031 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=29
+2018-06-10 12:07:21,364 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=30
+2018-06-10 12:07:26,206 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=31
+2018-06-10 12:07:29,874 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=32
+2018-06-10 12:07:33,593 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=33
+2018-06-10 12:07:37,494 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=34
+2018-06-10 12:07:41,062 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=35
+2018-06-10 12:07:50,339 DEBUG c_work_sc.py:121 アクセス開始
+2018-06-10 12:07:50,339 DEBUG c_work_sc.py:87 target_url : https://crowdworks.jp/public/jobs/group/development
+2018-06-10 12:07:56,373 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=2
+2018-06-10 12:08:00,367 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=3
+2018-06-10 12:08:04,219 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=4
+2018-06-10 12:08:08,108 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=5
+2018-06-10 12:08:11,720 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=6
+2018-06-10 12:08:15,395 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=7
+2018-06-10 12:08:18,638 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=8
+2018-06-10 12:08:21,944 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=9
+2018-06-10 12:08:25,201 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=10
+2018-06-10 12:08:29,073 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=11
+2018-06-10 12:08:32,526 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=12
+2018-06-10 12:08:36,109 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=13
+2018-06-10 12:08:39,048 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=14
+2018-06-10 12:08:42,751 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=15
+2018-06-10 12:08:45,917 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=16
+2018-06-10 12:08:49,031 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=17
+2018-06-10 12:08:53,230 DEBUG c_work_sc.py:87 next_url : https://crowdworks.jp/public/jobs/group/development?page=18
+2018-06-10 12:08:54,797 DEBUG c_work_sc.py:128 処理終了

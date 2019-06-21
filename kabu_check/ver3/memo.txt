@@ -1,0 +1,8 @@
+画像の表示
+
+from IPython.display import Image, display_png
+# png_file: str
+display_png(Image('sc_shot_head.png'))
+display_png(Image('sc_shot_tail.png'))
+
+
