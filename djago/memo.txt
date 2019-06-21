@@ -1,0 +1,54 @@
+■プロジェクト作成
+　適当にディレクトリを作ってその中で、コマンド実行
+　$ django-admin startproject mysite
+
+■外側の mysite/ ルートディレクトリは、このプロジェクトのただの入れ物です。
+　⇒適当に名前を変えても問題ない
+
+■開発用サーバの起動
+　$ python manage.py runserver
+　⇒ポート番号を変える場合 : python manage.py runserver 8080
+
+■アクセス確認
+　⇒ラウザで http://127.0.0.1:8000/ にアクセス
+
+■アプリケーション作成
+　⇒アプリケーションは Python path のどこにでも置けます
+　⇒以下の例では、manage.py のすぐ隣にに作成する。
+　⇒manage.py と同じディレクトリに入って、以下のコマンド実行
+　　⇒python manage.py startapp polls
+
+■polls/views.py に以下を記載
+    =========================================================================
+    from django.http import HttpResponse
+
+
+    def index(request):
+        return HttpResponse("Hello, world. You're at the polls index.")
+    =========================================================================
+
+■urls.py 作成
+　⇒上記で作成したビューを呼ぶために、 URL を対応付けする
+　⇒polls/urls.py
+   =========================================================================
+    from django.urls import path
+
+    from . import views
+
+    urlpatterns = [
+        path('', views.index, name='index'),
+    ]
+    =========================================================================
+
+ ■ルートのurlコンフに、polls.urls モジュールを追加
+　⇒mysite/urls.py に django.urls.include のimportを追加
+　⇒mysite/urls.py　urlpatterns のリストに include() を挿入
+   =========================================================================
+    from django.contrib import admin
+    from django.urls import include, path
+
+    urlpatterns = [
+        path('polls/', include('polls.urls')),
+        path('admin/', admin.site.urls),
+    ]
+    =========================================================================
