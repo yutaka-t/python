@@ -45,7 +45,7 @@
         {% for post in posts.all %}
 
         # {{ post.id }} :
-        <a href="{% url 'post_detail' post.id%}" class="container-fluid">{{ post.title }}</a>
+        <a href="{% url 'posts:post_detail' post.id %}" class="container-fluid">{{ post.title }}</a>
         <br/><br/>
         {{ post.published }}
         <br/><br/>

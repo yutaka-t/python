@@ -28,6 +28,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# パッケージ名だけ書くのは古い書き方
+# apps.py の AppConfig のサブクラスを追加が推奨
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -35,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'posts',
+    'polls.apps.PollsConfig',
+    'posts.apps.PostsConfig',
 ]
 
 MIDDLEWARE = [

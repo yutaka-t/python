@@ -52,3 +52,15 @@
         path('admin/', admin.site.urls),
     ]
     =========================================================================
+
+  ■検索や追加例
+  　Question.objects.filter(id=1) # id指定
+    Question.objects.filter(question_text__startswith='What')　# 先頭文字
+
+    親を取得して子を作成
+        Question : Choice = 1 : 多　の関係の場合、_set を付けると、内容を登録できる
+        そのとき Choice の先頭文字は 小文字になる
+
+        q = Question.objects.get(pk=1)
+        q.choice_set.create(choice_text='The sky', votes=0)
+
