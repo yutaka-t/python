@@ -1,6 +1,11 @@
 ■プロジェクト作成
 　適当にディレクトリを作ってその中で、コマンド実行
-　$ django-admin startproject mysite
+　$ django-admin startproject mysite .
+
+  ※最後に . をつけることで、余計なディレクトリを作成しないようになる
+  　例）
+        .なし :　<実行ディレクトリ>/mysite/mysite/manage.py
+        .あり :　<実行ディレクトリ>/mysite/manage.py
 
 ■外側の mysite/ ルートディレクトリは、このプロジェクトのただの入れ物です。
 　⇒適当に名前を変えても問題ない
