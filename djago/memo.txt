@@ -69,3 +69,12 @@
         q = Question.objects.get(pk=1)
         q.choice_set.create(choice_text='The sky', votes=0)
 
+
+
+"""モデルフィールドの参考
+    ■Qiita : Django: モデルフィールドリファレンスの一覧
+        https://qiita.com/nachashin/items/f768f0d437e0042dd4b3
+
+    ■モデルフィールドリファレンス | Django ドキュメント | Django
+        https://docs.djangoproject.com/ja/1.11/ref/models/fields/
+"""
