@@ -16,7 +16,7 @@ from mutagen.flac import FLAC
 # ログ出力先
 LOG_DIR_PATH = "./log"
 
-# ログ設定ファイルからログ設定を読み込み
+# ログフォルダチェック
 if not os.path.isdir(LOG_DIR_PATH):
     os.makedirs(LOG_DIR_PATH, exist_ok=True)
 
