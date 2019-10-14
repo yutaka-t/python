@@ -7,7 +7,12 @@ import logging
 # lineno: メッセージ出力箇所(行番号)
 # message: メッセージ
 # name: __name__ の内容が入る
+#
+# ◆ロギング
 # https://docs.python.org/ja/3/library/logging.html
+#
+# ◆ハンドラ
+# https://docs.python.org/ja/3/library/logging.handlers.html
 
 
 # logging.basicConfig(level=logging.WARNING)
