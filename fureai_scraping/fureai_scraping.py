@@ -83,7 +83,7 @@ DATE_FORMAT_F_NAME = r"%Y%m%d_%H%M%S"
 DATE_FORMAT_OUTPUT = r"%Y.%m.%d. %H:%M:%S"
 
 # LINE出力用
-access_token = "SutrAPnnxLH2Hpx8uA1IQd0CkNSRUMQV67XyKxEQrgd"
+access_token = ""
 line_notify_url = "https://notify-api.line.me/api/notify"
 
 
