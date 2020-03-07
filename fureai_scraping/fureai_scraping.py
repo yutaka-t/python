@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding:utf-8 -*-
 import calendar
 import copy
 import datetime
@@ -8,6 +6,7 @@ import os
 import pickle
 import sys
 import time
+import traceback
 
 import mail.send_mail as gmail
 import requests
@@ -84,7 +83,7 @@ DATE_FORMAT_F_NAME = r"%Y%m%d_%H%M%S"
 DATE_FORMAT_OUTPUT = r"%Y.%m.%d. %H:%M:%S"
 
 # LINE出力用
-access_token = ""
+access_token = "SutrAPnnxLH2Hpx8uA1IQd0CkNSRUMQV67XyKxEQrgd"
 line_notify_url = "https://notify-api.line.me/api/notify"
 
 
@@ -104,7 +103,8 @@ def get_webdriver():
             # ブラウザなし(Windows)
             options = Options()
             options.add_argument('--headless')
-            wd = webdriver.Chrome(chrome_options=options, executable_path=CHROME_DRIVER_FULLPATH)
+            wd = webdriver.Chrome(chrome_options=options,
+                                  executable_path=CHROME_DRIVER_FULLPATH)
             return wd
         else:
             # ブラウザなし ラズパイ(ubuntu)想定
@@ -160,7 +160,8 @@ def scraping(web_driver, court_names):
             # 施設名を入力して、フォーム送信
             logging.info("施設名を入力して、フォーム送信します")
             logging.debug("施設名 : {}".format(court_name))
-            keyword_tbox = web_driver.find_element_by_css_selector('input#textKeyword')
+            keyword_tbox = web_driver.find_element_by_css_selector(
+                'input#textKeyword')
             # web_driver.implicitly_wait(IMPLICITLY_WAIT)
             keyword_tbox.send_keys(court_name)
             web_driver.find_element_by_css_selector("input#doSearch").click()
@@ -260,12 +261,14 @@ def check_reservation_status(web_driver, place):
     while True:
         logging.info("URL : {}".format(web_driver.current_url))
         # コート単位の枠 最初の値は注意書きなのでスキップしている
-        booking_info_list = web_driver.find_elements_by_css_selector('table.tablebg2')
+        booking_info_list = web_driver.find_elements_by_css_selector(
+            'table.tablebg2')
         for empty_index, booking_info in enumerate(booking_info_list):
 
             # コート名
             try:
-                court_name = "[" + place + "]" + booking_info.find_element_by_css_selector('span#inamem').text
+                court_name = "[" + place + "]" + booking_info.find_element_by_css_selector(
+                    'span#inamem').text
                 # court_name = booking_info.find_element_by_css_selector('span#inamem').text
             except NoSuchElementException:
                 logging.debug('捕捉した情報は不要な情報(ページ間のリンク等)なのでスキップします')
@@ -276,14 +279,16 @@ def check_reservation_status(web_driver, place):
                 sys.exit(1)
 
             timezone_list = []
-            timezone_names = booking_info.find_elements_by_css_selector('span#tzonename')
+            timezone_names = booking_info.find_elements_by_css_selector(
+                'span#tzonename')
             for i, x in enumerate(timezone_names):
                 logging.debug("時間帯 {0}: {1}".format(i + 1, x.text))
                 timezone_list.append(x.text)
 
             # 空き情報
             empty_list = []
-            empty_states = booking_info.find_elements_by_css_selector('img#emptyStateIcon')
+            empty_states = booking_info.find_elements_by_css_selector(
+                'img#emptyStateIcon')
             for empty_index, y in enumerate(empty_states):
                 if y.get_attribute('alt') == "空き":
                     ret = '〇'
@@ -399,14 +404,20 @@ def output_booking_list(b_list):
                     p_name = court_detail.split(']')[0][1:]
 
                     # TODO: booking_time が、全角文字列になっているので半角に変換
-                    time_zone_list.append("{} : {}\n".format(p_name, booking_time))
+                    time_zone_list.append(
+                        "{} : {}\n".format(p_name, booking_time))
                     get_time_zone = True
 
                 # メール用のデータを格納
                 if free:
                     # 空きがあるものだけを対象とする
-                    mail_send_data.append("{0:02d}日 | {1} | {2}\n".format(b_day, court_detail, booking))
-                    logging.debug("<<Mail送信データへ追加>>{0:02d}日 | {1} | {2}".format(b_day, court_detail, booking))
+                    mail_send_data.append(
+                        "{0:02d}日 | {1} | {2}\n".format(b_day, court_detail,
+                                                        booking))
+                    logging.debug(
+                        "<<Mail送信データへ追加>>{0:02d}日 | {1} | {2}".format(b_day,
+                                                                      court_detail,
+                                                                      booking))
 
         logging.debug("■■ Mail送信データ　全体 ■■\n")
         logging.debug(mail_send_data)
@@ -457,8 +468,8 @@ if __name__ == '__main__':
     #     logging.error("強制終了します")
     #     sys.exit(1)
 
-    my_id = 0000
-    my_password = 0000
+    my_id = 1211572
+    my_password = 2830
 
     # テキストよりタグ名を取得する
     logging.debug("Get court name from text [start]")
@@ -489,20 +500,42 @@ if __name__ == '__main__':
     wb.close()
 
     # 結果をリストを使ってメール送信用の文字列作成
-    mail_send_data_list = output_booking_list(output_data_dic)
+    try:
+        mail_send_data_list = output_booking_list(output_data_dic)
+
+    except Exception:
+        logging.error('メール送信でエラー発生')
+        logging.error(traceback.print_exc())
+        logging.info('処理を終了します。')
+        sys.exit(1)
 
     # 取得した情報をgmailとLINEへ送る
-    if mail_send_data_list:
-        # gmail送信
-        title = "ふれあいネット検索結果 : {}月{}日 ～ {}日".format(month, s_day, last_month)
-        message = "\n" + "".join(mail_send_data_list)
-        gmail.send_gmail(title, message)
-        logging.debug("メール送信用のデータ：{}".format(message))
+    try:
+        if mail_send_data_list:
+            try:
+                # gmail送信
+                title = "ふれあいネット検索結果 : {}月{}日 ～ {}日".format(month, s_day, last_month)
+                message = "\n" + "".join(mail_send_data_list)
+                gmail.send_gmail(title, message)
+                logging.debug("メール送信用のデータ：{}".format(message))
 
-        # LINEにて通知
-        line_send("ふれあいネットの空き情報をgmailへ送信しました。")
-    else:
-        # LINEにて通知
-        line_send("ふれあいネットの空き情報はありませんでした。")
+            except Exception:
+                logging.error('メール送信でエラー発生')
+                logging.error(traceback.print_exc())
+                logging.info('処理を終了します。')
+                sys.exit(1)
+
+            # LINEにて通知
+            line_send("ふれあいネットの空き情報をgmailへ送信しました。")
+
+        else:
+            # LINEにて通知
+            line_send("ふれあいネットの空き情報はありませんでした。")
+
+    except Exception:
+        logging.error('LINE送信でエラー発生')
+        logging.error(traceback.print_exc())
+        logging.info('処理を終了します。')
+        sys.exit(1)
 
     logging.info('Processing Exit\n\n')
