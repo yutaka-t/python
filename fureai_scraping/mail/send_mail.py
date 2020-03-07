@@ -4,13 +4,14 @@ import smtplib
 from email.mime.text import MIMEText
 from email.utils import formatdate
 
+
 FROM_ADDRESS = ''
 TO_ADDRESS = ''
+MAIL_PASSWORD = ''
+
 BCC = ''
 SUBJECT = 'mail送信テスト2'
 BODY = 'pythonでメール送信'
-
-MAIL_PASSWORD_INDEX = 1
 
 
 def _create_message(from_addr, to_addr, bcc_addrs, subject, body):
@@ -34,7 +35,7 @@ def _send(from_addr, to_addrs, mail_app_pass, msg):
 
 
 def send_gmail(subject=SUBJECT, body=BODY):
-    app_pass = 'V3SdE1mz'
+    app_pass = MAIL_PASSWORD
     to_addr = TO_ADDRESS
 
     msg = _create_message(FROM_ADDRESS, to_addr, BCC, subject, body)
